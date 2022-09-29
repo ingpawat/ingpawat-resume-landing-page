@@ -35,7 +35,7 @@ nav button {
     width: 100%;
 
     /* Warper color */
-    background-color: #3D4750;
+    background-color: rgba(61,71,80);
 
     /* Fonts */
     font-size: 30px;
@@ -50,10 +50,11 @@ nav button {
 
     /* Position */
     position: sticky;
-    top: 0%;
+    top: 1%;
     left: 0%;
     z-index: 10;
     margin-left: 10%;
+   
 
     /* Sizing */
     height: 65px;

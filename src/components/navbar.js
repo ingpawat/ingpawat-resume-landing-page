@@ -20,7 +20,7 @@ const NavBar = () => {
         <div className={color ? 'nav-bar-trans' : 'nav-bar' }>
             <nav nav className="">
               <ul>
-                <button><a href="#"></a>HOME</button>
+                <button><a href="#"></a>HOME</button> 
                 <button><a href="#"></a>CONTACT</button>
               </ul>
             </nav>
