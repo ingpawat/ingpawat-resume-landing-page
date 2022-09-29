@@ -7,18 +7,24 @@
     padding: 0;
 }
 
+body {
+    scroll-behavior: smooth;
+}
+
 nav ul  {
     display: inline-block;
     list-style: none;
     display: flex;
     flex-direction: row;
     justify-content: center;
+  
 }
 
-nav button {
+nav a {
     padding: 15px;
     padding-top: 12px;
 }
+
 
 .nav-bar {
     /* display */
@@ -70,4 +76,17 @@ nav button {
     color: white;
     font-family: 'Archivo Black', sans-serif;
 
+}
+
+@media only screen and (max-width: 1500px) {
+    button{
+        font-size: 20px;
+    }
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .nav-bar-trans  {
+       display: none;
+    }
 }

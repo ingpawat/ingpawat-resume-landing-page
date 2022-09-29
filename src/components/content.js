@@ -1,6 +1,13 @@
 import "../components/content.css"
+import { useState } from "react";
+import EmailPop from "../components/pop-up/email-pop-up";
+import CallPop from "../components/pop-up/tell-pop-up";
 
 const Content = () => {
+
+    const [emailPop, setEmailPop] = useState(false);
+    const [callPop, setCallPop] = useState(false);
+
     return (
         <div className="contentWrapper w-[80%] h-[90%] bg-[#3D4750] flex justify-center flex-col mt-[5%] ">
             <div className="respondSet ">
@@ -52,40 +59,30 @@ const Content = () => {
                         </div>
 
                         <div className="flex justify-center items-center flex-row  mt-1 bg-[#30353a]">
-                                <p>Version control:</p>
-                                <a className="git m-2" href="https://git-scm.com/">
-                                    <img alt="git" width="60" height="60" src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" /></a>
-                                <a className="gitHub m-0" href="https://docs.github.com/en">
-                                    <img alt="gitHub" width="60" height="60" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" /></a>
+                            <p>Version control:</p>
+                            <a className="git m-2" href="https://git-scm.com/">
+                                <img alt="git" width="60" height="60" src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" /></a>
+                            <a className="gitHub m-0" href="https://docs.github.com/en">
+                                <img alt="gitHub" width="60" height="60" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" /></a>
                         </div>
 
                         <div className="flex justify-center items-center flex-row  mt-1 bg-[#30353a]">
-                                <p>Framework:</p>
-                                <a className="tailwind m-2" href="https://tailwindcss.com/">
-                                    <img alt="tailwind" width="60" height="60" src="https://camo.githubusercontent.com/bcd4bda49ef6cd9537db065920f4f4f6ac670eae0e0adf2c5133c19b319f1574/68747470733a2f2f627261646c632e67616c6c65727963646e2e76736173736574732e696f2f657874656e73696f6e732f627261646c632f7673636f64652d7461696c77696e646373732f302e322e302f313535383034303536333634392f4d6963726f736f66742e56697375616c53747564696f2e53657276696365732e49636f6e732e44656661756c74" /></a>
-                                <a className="chakraUI" href="https://chakra-ui.com/">
-                                    <img alt="chakraUI" width="60" height="60" src="https://img.icons8.com/color/344/chakra-ui.png" /></a>
+                            <p>Framework:</p>
+                            <a className="tailwind m-2" href="https://tailwindcss.com/">
+                                <img alt="tailwind" width="60" height="60" src="https://camo.githubusercontent.com/bcd4bda49ef6cd9537db065920f4f4f6ac670eae0e0adf2c5133c19b319f1574/68747470733a2f2f627261646c632e67616c6c65727963646e2e76736173736574732e696f2f657874656e73696f6e732f627261646c632f7673636f64652d7461696c77696e646373732f302e322e302f313535383034303536333634392f4d6963726f736f66742e56697375616c53747564696f2e53657276696365732e49636f6e732e44656661756c74" /></a>
+                            <a className="chakraUi" href="https://chakra-ui.com/">
+                                <img alt="chakraUi" width="60" height="60" src="https://img.icons8.com/color/344/chakra-ui.png" /></a>
                         </div>
-                        
 
-                        {/* <p className="text-[16px]">HTML, CSS, JAVASCRIPT - 🔧<a className="HTML" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html"><img alt="HTML" width="50" height="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" /></a>Using for base development on front-end.</p>
-
-                        <p className="text-[16px]">REACT - 🌐 <br /> Using REACT library for development on front-end. </p> <br />
-
-                        <p className="text-[16px]">TAILWIND - 🌬️ <br /> Using TAILWIND framework for development on CSS. </p>  <br />
-
-                        <p className="text-[16px]">NPM - 📦 <br />Increasing productivity by NPM for import many package.</p><br />
-
-                        <p className="text-[16px]">GIT & GITHUB - 🏗️ <br />Using global version control for develop with team and others.</p><br /> */}
 
                     </div>
                 </div>
 
                 <hr />
-
-                <div className="contact w-[100%] h-[25%] flex justify-start items-center flex-col  ">
+                {/* contact */}
+                <div id="2" className="contact w-[100%] h-[25%] flex justify-start items-center flex-col z-0  ">
                     <h1 className="text-white text-[35px] mt-5">CONTACT</h1>
-                    <div className="contact-logo w-[85%] h-[100%] flex justify-center items-start flex-row ">
+                    <div className="contact-logo w-[85%] h-[100%] flex justify-center items-start flex-row  ">
 
                         <p className="m-[7%] mt-5 text-white ">
                             <div className="flex justify-center"><a href="https://www.linkedin.com/in/ingpawat-khemngam-12a4b11ab/">
@@ -98,14 +95,23 @@ const Content = () => {
                                 <img className="w-[60px] h-[60px] m-0 p-0 flex justify-center" src="https://www.svgrepo.com/show/360450/github.svg" /></a>
                             </div>
                             <br /> Github</p>
+
+                        <div className="m-[7%] mt-5 text-white ">
+                            <button className="flex justify-center"
+                                onClick={() => setEmailPop(true)}>
+                                <img className="w-[60px] h-[60px] m-0 p-0 flex justify-center" src="https://www.svgrepo.com/show/13657/email.svg" />
+                            </button>
+                            {emailPop && <EmailPop close={setEmailPop} />}
+                            <br /> Email</div>
+                           
                         <p className="m-[7%] mt-5 text-white ">
-                            <div className="flex justify-center">
-                                <img className="w-[60px] h-[60px] m-0 p-0 flex justify-center" src="https://www.svgrepo.com/show/13657/email.svg" /></div>
-                            <br /> Email</p>
-                        <p className="m-[7%] mt-5 text-white ">
-                            <div className="flex justify-center">
-                                <img className="w-[60px] h-[60px] m-0 p-0 flex justify-center" src="https://www.svgrepo.com/show/92111/on-call.svg" /></div>
+                            <button className="flex justify-center"
+                                 onClick={() => setCallPop(true)}><a>
+                                <img className="w-[60px] h-[60px] m-0 p-0 flex justify-center" src="https://www.svgrepo.com/show/92111/on-call.svg" /></a>
+                            </button>
+                            {callPop && <CallPop close={setCallPop} />}
                             <br /> Tell</p>
+                            
 
                     </div>
                 </div >

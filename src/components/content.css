@@ -86,6 +86,8 @@ hr {
         display: none;
     }
 
+
+
     .title{
         text-align: center;
 
@@ -96,14 +98,6 @@ hr {
         font-size: 10px;
         
     }
-
-    /* .setTitle {
-        text-align: center;
-        display: flex;
-        flex-direction: row;
-        justify-items: center;
-        justify-content: center;
-    } */
 
     .handSomePic{
         display: none;
@@ -149,5 +143,16 @@ hr {
         display: flex;
         justify-items: end;
         margin-top: 30%;
+        height: 300px;
+        border: red;
+    }
+
+    .contact-logo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        /* w-[85%] h-[100%] flex justify-center items-start flex-row */
     }
 };

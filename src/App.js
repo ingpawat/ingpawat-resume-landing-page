@@ -7,7 +7,7 @@ import Content from './components/content';
 function App() {
 
     return (
-        <div className="App bg-[#22272c]">
+        <div id='1' className="App  bg-[#22272c]">
             
              {/* Nav-bar */}
              <NavBar />
@@ -17,7 +17,7 @@ function App() {
            
 
             {/* background */}
-            <div className='contentBG w-[100%] h-[1400px] p-0 m-0 bg-[#0A1315] flex justify-center'>
+            <div className='contentBG w-[100%] h-[1700px] p-0 m-0 bg-[#0A1315] flex justify-center'>
                 {/* content will show here */}
                 <Content />
             </div>

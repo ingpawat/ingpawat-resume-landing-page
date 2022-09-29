@@ -18,10 +18,10 @@ const NavBar = () => {
 
     return (
         <div className={color ? 'nav-bar-trans' : 'nav-bar' }>
-            <nav nav className="">
+            <nav nav className="Navbar">
               <ul>
-                <button><a href="#"></a>HOME</button> 
-                <button><a href="#"></a>CONTACT</button>
+                <a href="#1">HOME</a>
+                <a href="#2">CONTACT</a>
               </ul>
             </nav>
         </div>
