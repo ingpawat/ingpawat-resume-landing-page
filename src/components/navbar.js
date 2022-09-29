@@ -12,6 +12,7 @@ const NavBar = () => {
             setColor(false);
         }
     };
+    
 
     window.addEventListener('scroll', changColor)
 
@@ -19,8 +20,8 @@ const NavBar = () => {
         <div className={color ? 'nav-bar-trans' : 'nav-bar' }>
             <nav nav className="">
               <ul>
-                <li><a href="#"></a>HOME</li>
-                <li><a href="#"></a>CONTACT</li>
+                <button><a href="#"></a>HOME</button>
+                <button><a href="#"></a>CONTACT</button>
               </ul>
             </nav>
         </div>

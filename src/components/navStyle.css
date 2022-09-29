@@ -15,12 +15,14 @@ nav ul  {
     justify-content: center;
 }
 
-nav li {
+nav button {
     padding: 15px;
     padding-top: 12px;
 }
 
 .nav-bar {
+    /* display */
+    transition: .4s ease-in-out;
 
     /* Position */
     position: sticky;
@@ -43,6 +45,8 @@ nav li {
 }
 
 .nav-bar-trans {
+    /* display */
+    transition: .5s ease-in-out;
 
     /* Position */
     position: sticky;
