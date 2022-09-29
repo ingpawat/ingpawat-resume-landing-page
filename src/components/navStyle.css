@@ -5,7 +5,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Archivo Black', sans-serif;
 }
 
 nav ul  {
@@ -39,6 +38,7 @@ nav li {
     /* Fonts */
     font-size: 30px;
     color: rgb(216, 216, 216);
+    font-family: 'Archivo Black', sans-serif;
 
 }
 
@@ -49,6 +49,7 @@ nav li {
     top: 0%;
     left: 0%;
     z-index: 10;
+    margin-left: 10%;
 
     /* Sizing */
     height: 65px;
@@ -62,5 +63,6 @@ nav li {
     /* Fonts */
     font-size: 25px;
     color: white;
+    font-family: 'Archivo Black', sans-serif;
 
 }
