@@ -22,7 +22,7 @@ const Content = () => {
                     <div className="aboutMeContentSmallBox w-[40%] h-[100%] mr-[5%]  ">
                         <div className="ml-[5%]  mt-[18%] w-[100%] h-[100%] text-white">
                             <p>Shorten name "Y", 20 years old male was born in 3st November 2001 based in thailand. </p> <br />
-                            <p> Currently stacks on software development. at @techupth. Having base front-end and development on REACT library</p> <br />
+                            <p> Currently stacking on software development. at @techupth. Having base front-end development on REACT library</p> <br />
                             <p>Looking up to front-end development jobs in Thailand or remote.</p>
                         </div>
                     </div>
