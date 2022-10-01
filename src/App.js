@@ -13,11 +13,11 @@ function App() {
              <NavBar />
 
             {/* banner */}
-            <img src={Wallpaper} alt="wallpaper" className='w-[100%] z-0' />
+            <img src={Wallpaper} alt="wallpaper" className='w-[100%] z-10' />
            
 
             {/* background */}
-            <div className='contentBG w-[100%] h-[1700px] p-0 m-0 bg-[#0A1315] flex justify-center'>
+            <div className='contentBG w-[100%] h-[2000px] p-0 m-0 bg-[#0A1315] flex justify-center'>
                 {/* content will show here */}
                 <Content />
             </div>
