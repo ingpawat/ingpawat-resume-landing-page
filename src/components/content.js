@@ -38,14 +38,12 @@ const Content = () => {
                     <div className="aboutMeContentSmallBox w-[40%] h-[100%] mr-[5%]  ">
                         <div className="ml-[5%]  mt-[18%] w-[100%] h-[100%] text-white">
                             <p>
-                                Shorten name "Y", 20 years old male was born in 3st November
-                                2001 based in thailand.{" "}
+                                Shorten name "Y", 20 years old male was born in 3rd November 2001 based in Thailand.{" "}
                             </p>{" "}
                             <br />
                             <p>
                                 {" "}
-                                Currently stacking on software development. at @techupth. Having
-                                base front-end development on REACT library.
+                                Currently stacking on software development at @techupth. Having base front-end development on REACT library.
                             </p>{" "}
                             <br />
                             <p>
@@ -57,8 +55,8 @@ const Content = () => {
                                 Ando. bless all the best thing for these kind of man that
                                 inspired the people. 🕊️{" "}
                             </p>
-                            
-              
+
+
                         </div>
 
                         <Badge />
@@ -253,7 +251,7 @@ const Content = () => {
                     className="contact w-[100%] h-[25%] flex justify-start items-center flex-col z-0 relative "
                 >
                     <h1 className="text-white text-[35px] mt-5">CONNECT WITH ME</h1>
-            
+
                     <div className="contact-logo w-[85%] h-[100%] mt-8 flex justify-center items-start flex-row   ">
                         <div className="m-[7%] mt-0 text-white ">
                             <div className="flex justify-center">
