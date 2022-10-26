@@ -255,7 +255,7 @@ const Content = () => {
                     <div className="contact-logo w-[85%] h-[100%] mt-8 flex justify-center items-start flex-row   ">
                         <div className="m-[7%] mt-0 text-white ">
                             <div className="flex justify-center">
-                                <a href="https://www.linkedin.com/in/ingpawat-khemngam-12a4b11ab/">
+                                <a target="_blank" href="https://www.linkedin.com/in/ingpawat-khemngam-12a4b11ab/">
                                     <img
                                         className="w-[auto] h-[60px] m-0 p-0 flex justify-center"
                                         src="https://www.svgrepo.com/show/204944/linkedin.svg"
@@ -269,7 +269,7 @@ const Content = () => {
 
                         <div className="m-[7%] mt-[-5px] text-white ">
                             <div className="flex justify-center">
-                                <a href="https://github.com/ingpawat">
+                                <a target="_blank" href="https://github.com/ingpawat">
                                     <img
                                         className="w-[auto] h-[70px] m-0 p-0 flex justify-center"
                                         src="https://www.svgrepo.com/show/360450/github.svg"
@@ -318,6 +318,8 @@ const Content = () => {
             </div>
         </div>
     );
+
+    
 };
 
 export default Content;

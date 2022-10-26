@@ -3,6 +3,7 @@ import NavBar from "./components/navbar";
 import React from 'react';
 import Wallpaper from './asset/water22.webp';
 import Content from './components/content';
+import TechnologyStacks from './components/TechnologyStacks';
 
 function App() {
 
@@ -20,6 +21,11 @@ function App() {
             <div className='contentBG w-[100%] h-[2000px] p-0 m-0 bg-[#0A1315] flex justify-center'>
                 {/* content will show here */}
                 <Content />
+            </div>
+
+            {/* tech stacks */}
+            <div className='contentBgTwo w-[100%] h-[2000px] p-0 mt-0 bg-[#0A1315] flex justify-center '>
+               < TechnologyStacks />
             </div>
 
 
