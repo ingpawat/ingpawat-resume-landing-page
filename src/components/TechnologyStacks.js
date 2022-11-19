@@ -3,7 +3,7 @@ const TechnologyStacks = () => {
         <div className="contentWrapper border-10 border-white  bg-[#3D4750] w-[80%] mt-[10%] h-[80%] flex items-center flex-col">
 
             <p className="text-[28px] mt-9 mb-0 flex justify-center items-center flex-row underline  underline-offset-8 text-white ">
-                Familiar with Technology{" "}
+            Technology Stacks, Familiar, Experience{" "}
             </p>
 
             <div className="Language mt-[2%]">

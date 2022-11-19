@@ -20,8 +20,9 @@ const NavBar = () => {
         <div className={color ? 'nav-bar-trans' : 'nav-bar' }>
             <nav nav className="Navbar">
               <ul>
-                <a href="#1">HOME</a>
+                {/* <a className="HOME" href="#1">HOME</a> */}
                 <a href="#2">CONTACT</a>
+                <a href="#3">TECH STACK</a>
               </ul>
             </nav>
         </div>

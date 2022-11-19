@@ -24,8 +24,8 @@ function App() {
             </div>
 
             {/* tech stacks */}
-            <div className='contentBgTwo w-[100%] h-[2000px] p-0 mt-0 bg-[#0A1315] flex justify-center '>
-               < TechnologyStacks />
+            <div id='3' className='contentBgTwo w-[100%] h-[2000px] p-0 mt-0 bg-[#0A1315] flex justify-center '>
+               < TechnologyStacks  />
             </div>
 
 

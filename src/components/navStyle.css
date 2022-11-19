@@ -63,7 +63,7 @@ nav a {
    
 
     /* Sizing */
-    height: 65px;
+    height: 60px;
     width: 16%;
 
     /* Warper */
@@ -72,9 +72,10 @@ nav a {
     border-radius: 40px;
 
     /* Fonts */
-    font-size: 25px;
+    font-size: 19px;
     color: white;
     font-family: 'Archivo Black', sans-serif;
+
 
 }
 

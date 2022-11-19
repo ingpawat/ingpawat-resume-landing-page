@@ -20,10 +20,10 @@ const Content = () => {
 
                     <div className="setTitle flex justify-center items-center flex-col ">
                         <h1 className="myName text-white text-[38px] ml-10">
-                            Hi! me, Ingpawat Khemngam{" "}
+                            Yo! me, Ingpawat Khemngam{" "}
                         </h1>
                         <h1 className="myRole text-white text-[30px] ml-10">
-                            Full-Stack software developer
+                            Software Developer
                         </h1>
                         <h1 className="text-[45px] mt-5">👨🏻‍💻</h1>
                     </div>
@@ -35,37 +35,36 @@ const Content = () => {
                     ABOUT ME
                 </h1>
                 <div className="aboutMeContentBox w-[100%] h-[45%] flex justify-center items-center flex-row   ">
-                    <div className="aboutMeContentSmallBox w-[40%] h-[100%] mr-[5%]  ">
-                        <div className="ml-[5%]  mt-[18%] w-[100%] h-[100%] text-white">
-                            <p>
-                                Shorten name "Y", 20 years old male was born in 3rd November 2001 based in Thailand.{" "}
-                            </p>{" "}
-                            <br />
-                            <p>
-                                {" "}
-                                Currently stacking on software development at @techupth. Having base front-end development on REACT library.
-                            </p>{" "}
-                            <br />
-                            <p>
-                                Looking up to front-end development jobs in Thailand or remote.
-                            </p>
-                            <br />
-                            <p>
-                                My big inspiration for design is Ye, Virgil Abloh and Tadao
-                                Ando. bless all the best thing for these kind of man that
-                                inspired the people. 🕊️{" "}
-                            </p>
+                    <div className="aboutMeContentSmallBox w-[100%] h-[100%] m-[10%] mt-[] text-white ">
+                        {/* <div className="ml-[5%]  mt-[18%] w-[100%] h-[100%] text-white border"> */}
+                        <p>
+                            Shorten name "Y", 20 years old male was born in 3rd November 2001 based in Thailand.{" "}
+                        </p>{" "}
+                        <br />
+                        <p>
+                            {" "}
+                            Currently stacking on software development at @techupth. Having base front-end development on REACT library.
+                        </p>{" "}
+                        <br />
+                        <p>
+                            Looking up to front-end development jobs in Thailand or remote.
+                        </p>
+                        <br />
+                        <p>
+                            My big inspiration for design is Ye, Virgil Abloh and Tadao
+                            Ando. bless all the best thing for these kind of man that
+                            inspired the people. 🕊️{" "}
+                        </p>
 
 
-                        </div>
-
-                        <Badge />
+                        {/* </div> */}
 
                     </div>
 
+
                     {/* technology use */}
-                    <div className="technologyFamiliar  w-[40%] h-[100%] text-white  ">
-                        <p className="text-[28px] mt-9 mb-0 flex justify-center items-center flex-row underline  underline-offset-8 ">
+                    {/* <div className="technologyFamiliar  w-[40%] h-[100%] text-white  "> */}
+                    {/* <p className="text-[28px] mt-9 mb-0 flex justify-center items-center flex-row underline  underline-offset-8 ">
                             Familiar with Technology{" "}
                         </p>
                         <br />
@@ -137,8 +136,8 @@ const Content = () => {
                                     height="80"
                                     src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Axios_logo_%282020%29.svg/2560px-Axios_logo_%282020%29.svg.png"
                                 />
-                            </a>
-                            {/* <a
+                            </a> */}
+                    {/* <a
                 className="redux m-0"
                 href="https://redux.js.org/introduction/getting-started"
               >
@@ -149,9 +148,9 @@ const Content = () => {
                   src="https://upload.wikimedia.org/wikipedia/commons/4/49/Redux.png"
                 />
               </a> */}
-                        </div>
+                    {/* </div> */}
 
-                        <div className="flex justify-center items-center flex-row  mt-1 bg-[#6e7878]">
+                    {/* <div className="flex justify-center items-center flex-row  mt-1 bg-[#6e7878]">
                             <p>Framework:</p>
                             <a className="tailwind m-2" href="https://tailwindcss.com/">
                                 <img
@@ -169,9 +168,9 @@ const Content = () => {
                                     src="https://img.icons8.com/color/344/chakra-ui.png"
                                 />
                             </a>
-                        </div>
+                        </div> */}
 
-                        {/* <div className="flex justify-center items-center flex-row h-[80px] mt-1 bg-[#6e7878]">
+                    {/* <div className="flex justify-center items-center flex-row h-[80px] mt-1 bg-[#6e7878]">
               <p>Content Management System:</p>
               <a
                 className="srapi m-2 ml-3"
@@ -186,7 +185,7 @@ const Content = () => {
               </a>
             </div> */}
 
-                        <div className="flex justify-center items-center flex-row h-[80px]  mt-1 bg-[#6e7878]">
+                    {/* <div className="flex justify-center items-center flex-row h-[80px]  mt-1 bg-[#6e7878]">
                             <p>Version control:</p>
                             <a className="git m-2" href="https://git-scm.com/">
                                 <img
@@ -240,83 +239,90 @@ const Content = () => {
                                     src="https://pnggrid.com/wp-content/uploads/2021/11/Meta-1024x576.png"
                                 />
                             </a>
-                        </div>
-                    </div>
+                        </div> */}
+                    {/* </div> */}
+
+
                 </div>
 
                 <hr />
                 {/* contact */}
-                <div
-                    id="2"
-                    className="contact w-[100%] h-[25%] flex justify-start items-center flex-col z-0 relative "
-                >
-                    <h1 className="text-white text-[35px] mt-5">CONNECT WITH ME</h1>
 
-                    <div className="contact-logo w-[85%] h-[100%] mt-8 flex justify-center items-start flex-row   ">
-                        <div className="m-[7%] mt-0 text-white ">
-                            <div className="flex justify-center">
-                                <a target="_blank" href="https://www.linkedin.com/in/ingpawat-khemngam-12a4b11ab/">
-                                    <img
-                                        className="w-[auto] h-[60px] m-0 p-0 flex justify-center"
-                                        src="https://www.svgrepo.com/show/204944/linkedin.svg"
-                                    />
-                                </a>
-                            </div>
 
-                            <br />
-                            <p> Linkedin </p>
-                        </div>
 
-                        <div className="m-[7%] mt-[-5px] text-white ">
-                            <div className="flex justify-center">
-                                <a target="_blank" href="https://github.com/ingpawat">
-                                    <img
-                                        className="w-[auto] h-[70px] m-0 p-0 flex justify-center"
-                                        src="https://www.svgrepo.com/show/360450/github.svg"
-                                    />
-                                </a>
-                            </div>
-                            <br />
-                            <p> Github </p>
-                        </div>
+            
 
-                        {emailPop && <EmailPop close={setEmailPop} />}
-                        <div className="m-[7%] mt-0 text-white z-0 relative ">
-                            <button
-                                className="flex justify-center"
-                                onClick={() => setEmailPop(true)}
-                            >
+            <div
+                id="2"
+                className="contact w-[100%] h-[25%] flex justify-start items-center flex-col z-0 relative "
+            >
+                <h1 className="text-white text-[35px] mt-5">CONNECT WITH ME</h1>
+
+                <div className="contact-logo w-[85%] h-[100%] mt-8 flex justify-center items-start flex-row   ">
+                    <div className="m-[7%] mt-0 text-white ">
+                        <div className="flex justify-center">
+                            <a target="_blank" href="https://www.linkedin.com/in/ingpawat-khemngam-12a4b11ab/">
                                 <img
-                                    className="w-[auto] h-[65px] m-0 p-0 flex justify-center"
-                                    src="https://www.svgrepo.com/show/13657/email.svg"
+                                    className="w-[auto] h-[60px] m-0 p-0 flex justify-center"
+                                    src="https://www.svgrepo.com/show/204944/linkedin.svg"
                                 />
-                            </button>
-
-                            <br />
-                            <p> Email </p>
+                            </a>
                         </div>
 
-                        {callPop && <CallPop close={setCallPop} />}
-                        <div className="m-[7%] mt-0 text-white z-0 relative ">
-                            <button
-                                className="flex justify-center"
-                                onClick={() => setCallPop(true)}
-                            >
-                                <a>
-                                    <img
-                                        className="w-[auto] h-[67px] m-0 p-0 flex justify-center"
-                                        src="https://cdn-icons-png.flaticon.com/512/25/25377.png"
-                                    />
-                                </a>
-                            </button>
+                        <br />
+                        <p> Linkedin </p>
+                    </div>
 
-                            <br />
-                            <p> Tell </p>
+                    <div className="m-[7%] mt-[-5px] text-white ">
+                        <div className="flex justify-center">
+                            <a target="_blank" href="https://github.com/ingpawat">
+                                <img
+                                    className="w-[auto] h-[70px] m-0 p-0 flex justify-center"
+                                    src="https://www.svgrepo.com/show/360450/github.svg"
+                                />
+                            </a>
                         </div>
+                        <br />
+                        <p> Github </p>
+                    </div>
+
+                    {emailPop && <EmailPop close={setEmailPop} />}
+                    <div className="m-[7%] mt-0 text-white z-0 relative ">
+                        <button
+                            className="flex justify-center"
+                            onClick={() => setEmailPop(true)}
+                        >
+                            <img
+                                className="w-[auto] h-[65px] m-0 p-0 flex justify-center"
+                                src="https://www.svgrepo.com/show/13657/email.svg"
+                            />
+                        </button>
+
+                        <br />
+                        <p> Email </p>
+                    </div>
+
+                    {callPop && <CallPop close={setCallPop} />}
+                    <div className="m-[7%] mt-0 text-white z-0 relative ">
+                        <button
+                            className="flex justify-center"
+                            onClick={() => setCallPop(true)}
+                        >
+                            <a>
+                                <img
+                                    className="w-[auto] h-[67px] m-0 p-0 flex justify-center"
+                                    src="https://cdn-icons-png.flaticon.com/512/25/25377.png"
+                                />
+                            </a>
+                        </button>
+
+                        <br />
+                        <p> Tell </p>
                     </div>
                 </div>
             </div>
         </div>
+        </div >
     );
 
     
