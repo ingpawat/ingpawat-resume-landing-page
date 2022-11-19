@@ -217,7 +217,7 @@ const Content = () => {
                                 />
                             </a>
 
-                            <a
+                            {/* <a
                                 className="google"
                                 href="https://analytics.google.com/analytics/web/provision/#/provision"
                             >
@@ -225,9 +225,9 @@ const Content = () => {
                                     alt="google"
                                     width="80"
                                     height="80"
-                                    src="https://logos-world.net/wp-content/uploads/2021/02/Google-Analytics-Logo.png"
+                                    src="https://image.pngaaa.com/270/651270-middle.png"
                                 />
-                            </a>
+                            </a> */}
 
                             <a
                                 className="meta m-0"

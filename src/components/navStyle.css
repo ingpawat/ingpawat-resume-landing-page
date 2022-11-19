@@ -25,6 +25,9 @@ nav a {
     padding-top: 12px;
 }
 
+.nav-bar, .nav-bar-trans{
+    z-index: 100;
+}
 
 .nav-bar {
     /* display */
