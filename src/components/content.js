@@ -20,7 +20,7 @@ const Content = () => {
 
                     <div className="setTitle flex justify-center items-center flex-col ">
                         <h1 className="myName text-white text-[38px] ml-10">
-                            Yo! me, Ingpawat Khemngam{" "}
+                           me, Ingpawat Khemngam{" "}
                         </h1>
                         <h1 className="myRole text-white text-[30px] ml-10">
                             Software Developer
